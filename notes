@@ -1,0 +1,51 @@
+Time complexity(efficiency) - example - google search engine (PageRank algorithm)
+ Order of growth = Orders of Growth ka matlab hota hai ki jab input size bahut bada ho jaye, tab program ka runtime kitni speed se grow karega. Ye mainly Big-O notation me express kiya jata hai.
+
+Goals / Main Points:
+Jab input bahut bada ho, tab program kitna efficient hai ye check karna.
+Program ka runtime input size ke saath kaise increase hota hai, usko represent karna.
+Runtime growth ka ek upper bound nikalna (maximum possible growth).
+Hume exact time nahi chahiye, sirf “order of growth” chahiye.
+Example: exact 102 ms nahi, bas ye ki runtime O(n) hai ya O(n²).
+Hum program ke largest factor ko dekhte hain:
+Kaunsa part sabse zyada time lega?
+Isliye generally hum:
+Worst case me tight upper bound find karte hain as function of input size.
+ 
+ Simple Example
+1. Linear Growth
+for(int i=0; i<n; i++)
+
+Yaha loop n times chalega.
+
+Time Complexity:
+
+O(n)
+
+f(n)=n
+
+2. Quadratic Growth
+for(int i=0; i<n; i++)
+   for(int j=0; j<n; j++)
+
+Nested loops hain, total operations:
+
+n×n=n
+2
+
+Time Complexity:
+
+O(n2)
+
+f(n)=n
+2
+
+Common Orders of Growth
+Complexity	Meaning
+O(1)	Constant time
+O(log n)	Logarithmic
+O(n)	Linear
+O(n log n)	Efficient sorting
+O(n²)	Nested loops
+O(2^n)	Exponential 
+
