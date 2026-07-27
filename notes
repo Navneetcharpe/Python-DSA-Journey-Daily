@@ -49,3 +49,34 @@ O(n log n)	Efficient sorting
 O(n²)	Nested loops
 O(2^n)	Exponential 
 
+recursion :- Recursion ek programming technique hai jisme ek function khud ko hi baar-baar call karta hai kisi problem ko chhote parts me solve karne ke liye. Ye process tab tak chalta hai jab tak base case (stop condition) meet na ho jaye.
+
+list - ordered mutable collection of item.
+
+slicing :- Slicing Python ki ek technique hai jisse hum string, list ya tuple ka koi specific part (portion) nikal sakte hain.
+
+iterate :- "Kisi list, string, tuple ya kisi collection ke har element ko ek-ek karke access karne ki process ko Iteration (Iterate) kehte hain."
+
+enumerate :- "enumerate() ek function hai jo iterable (list, tuple, string, etc.) ke har element ke saath uska index bhi return karta hai."
+
+comprehension :- Comprehension Python ki ek short aur efficient technique hai jisse ek hi line me nayi list, set ya dictionary create ki ja sakti hai, bina normal for loop ko alag se likhe.
+
+ nested list comprehension :- Nested Loop Comprehension ka matlab hai ek hi comprehension ke andar ek se zyada for loops ka use karna, jisse multiple loops ka kaam ek hi line me ho jata hai.
+
+set(mutable) :- "Set ek collection hai jo sirf unique elements ko store karta hai aur duplicate values ko automatically remove kar deta hai."
+
+subset method :- Agar Set A ke har element, Set B me bhi ho, to A ko B ka subset kehte hain.
+
+shallow copy :- Shallow Copy ek aisi copy hoti hai jisme outer object ka naya copy banta hai, lekin andar ke nested (inner) objects original object ke saath hi shared rehte hain.
+
+ Itrating over dictionaries :- "Kisi collection ke elements ko one by one access ya process karne ki process ko Iterating kehte hain."
+# you can use loops to iterative over dictonatries, keys , values or items
+
+Dictionary comprehension :- Comprehension Python ki ek shortcut technique hai jisse ek hi line me for loop aur optional if condition ka use karke naya collection (List, Set, ya Dictionary) banaya jata hai.
+
+lambda function : Lambda functions are small anonymous functions defined using a Lambda keyword. They can have any number of arguments but only one expression. They are commonly used for short operations or as arguments to higher order function .
+
+Map() function :- The map() function applies a given function to all the items in an input list (or any other iterable) and returns a map object (an iterator). This is particularly useful for transforming data in a list comprehensively.
+
+filter() funtion : filter() Python ka built-in function hai jo kisi iterable (list, tuple, etc.) se sirf un elements ko return karta hai jo di gayi condition ko satisfy karte hain.
+
