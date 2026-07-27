@@ -80,3 +80,91 @@ Map() function :- The map() function applies a given function to all the items i
 
 filter() funtion : filter() Python ka built-in function hai jo kisi iterable (list, tuple, etc.) se sirf un elements ko return karta hai jo di gayi condition ko satisfy karte hain.
 
+Pseudocode 
+1. A pseudocode simple way of describing an algorithm in plain language or a mix of code like and natural language instructions.
+2. It doesn't follow any specific  programming language syntax making it easier to understanding even for those without programming language.
+3. pseudocode is often  used as a step before writing  actual code.
+
+Process to solve a problem
+1. Analyze your problem      --    input, output, constraint 
+2. Breakdown problem into smaller subports.
+3. Remember/ enlist the concept.
+4. Tore 2-3 examples.        --    Clear out confusion / gap 
+Write a paeudocode on the paper.
+
+Array : -> An array is a collection of elements stored in  categous memory location.
+-> all elements of are the same data type (integer float etc.)
+-> array  allow for efficient access and manipulation of data.
+
+1. Linear Search
+
+Linear Search is a searching algorithm that checks each element one by one until the target element is found or the list ends.
+
+Hinglish: List ke har element ko ek-ek karke check karta hai.
+
+2. Binary Search
+
+Binary Search is a searching algorithm that searches a sorted list by repeatedly dividing it into two halves.
+
+Hinglish: Sorted list ko baar-baar do hisson me baant kar element dhoondta hai.
+
+3. Bubble Sort
+
+Bubble Sort is a sorting algorithm that repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+
+Hinglish: Paas-paas ke elements compare karta hai aur galat order me hone par swap karta hai.
+
+4. Selection Sort
+
+Selection Sort is a sorting algorithm that repeatedly selects the smallest element from the unsorted part and places it at the correct position.
+
+Hinglish: Unsorted list me se sabse chhota element select karke uski sahi position par rakhta hai.
+
+5. Insertion Sort
+
+Insertion Sort is a sorting algorithm that builds the sorted list by inserting one element at a time into its correct position.
+
+Hinglish: Ek-ek element ko uski sahi jagah insert karke sorted list banata hai.
+
+6. Merge Sort
+
+Merge Sort is a divide-and-conquer sorting algorithm that divides the list into halves, sorts them, and merges them back.
+
+Hinglish: List ko chhote parts me divide karke sort karta hai aur phir merge karta hai.
+
+7. Quick Sort
+
+Quick Sort is a divide-and-conquer sorting algorithm that selects a pivot element and partitions the list around it.
+
+Hinglish: Pivot choose karke uske according list ko partition karta hai aur recursively sort karta hai.
+
+8. Heap Sort
+
+Heap Sort is a sorting algorithm that uses a heap data structure to repeatedly remove the largest (or smallest) element.
+
+Hinglish: Heap data structure ka use karke elements ko sort karta hai.
+
+9. Counting Sort
+
+Counting Sort is a non-comparison sorting algorithm that sorts elements by counting the occurrences of each value.
+
+Hinglish: Har value kitni baar aayi hai usko count karke sorting karta hai.
+
+10. Radix Sort
+
+Radix Sort is a non-comparison sorting algorithm that sorts numbers digit by digit from least significant to most significant digit.
+
+Hinglish: Numbers ko digit-by-digit sort karta hai.
+
+11. Searching
+
+Searching is the process of finding a specific element in a collection of data.
+
+Hinglish: Data me kisi specific element ko dhoondhne ki process.
+
+12. Sorting
+
+Sorting is the process of arranging data in ascending or descending order.
+
+Hinglish: Data ko ascending ya descending order me arrange karna.
+
