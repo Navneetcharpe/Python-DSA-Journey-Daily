@@ -130,10 +130,94 @@ Woof!
 Meow!
 ```
 
+
+
 ---
 
-# Summary
+## Polymorphism
 
+**Definition**
+
+Polymorphism is a core concept of Object-Oriented Programming (OOP) that allows objects of different classes to be treated through a common interface. The same method can perform different actions depending on the object.
+
+**Hinglish:** Ek hi method alag-alag objects ke liye alag behavior perform karta hai.
+
+### Method Overriding
+Method Overriding allows a child class to redefine a method already available in its parent class.
+
+Example:
+- Animal -> Dog
+- Animal -> Cat
+
+### Function-based Polymorphism
+Functions can accept different object types as long as they implement the required method.
+
+### Abstract Base Class (ABC)
+Abstract Base Classes define a common interface and force child classes to implement required methods.
+
+---
+
+## Encapsulation
+
+**Definition**
+
+Encapsulation means wrapping variables (data) and methods (functions) into a single class while restricting direct access to important data.
+
+### Access Modifiers
+- Public
+- Protected
+- Private
+
+### Getter and Setter
+Getter methods read private variables.
+Setter methods safely modify private variables.
+
+---
+
+## Abstraction
+
+**Definition**
+
+Abstraction hides implementation details and exposes only the essential functionality.
+
+It is commonly implemented using Abstract Base Classes.
+
+---
+
+## Operator Overloading
+
+Operator Overloading allows operators like +, -, == etc. to work with user-defined objects.
+
+Example:
+- __add__()
+- __sub__()
+- __repr__()
+
+---
+
+## Custom Exceptions
+
+Custom Exceptions are user-defined exceptions created by inheriting from Exception.
+
+They help represent application-specific errors.
+
+Example:
+dobException
+
+---
+
+## Custom List
+
+A Custom List is a user-defined dynamic array implementation that helps understand how Python lists work internally.
+
+---
+
+This README is intended as structured notes for Python OOP concepts. Add your full code examples under each topic for a complete study guide.
+
+
+# Summary
+ ## Topics
+ 
 - Classes
 - Objects
 - Constructors
@@ -143,5 +227,17 @@ Meow!
 - Multiple Inheritance
 - Polymorphism
 - Method Overriding
+- Polymorphism
+- Method Overriding
+- Polymorphism with Functions
+- Polymorphism with Abstract Base Class (ABC)
+- Encapsulation
+- Public, Protected and Private Variables
+- Getter and Setter
+- Abstraction
+- Operator Overloading
+- Custom Exceptions
+- Custom List
+
 
 These concepts are the foundation of Object-Oriented Programming in Python.
